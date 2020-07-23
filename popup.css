@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 200px;
+  font-weight: 400;
+}
+.container {
+  margin: 10px 10px 5px;
+}
+.container.center {
+  text-align: center;
+}
+.container.space-around {
+  display: flex;
+  justify-content: space-around;
+}
+#timer {
+  font-size: 20px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+#input {
+  width: 100%;
+  font-size: 16px;
+  padding: 5px 10px;
+  outline: none;
+}

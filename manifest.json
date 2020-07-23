@@ -1,0 +1,25 @@
+{
+  "name": "Countdown Timer",
+  "description": "A simple countdown timer",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "icons": {
+    "128": "icons/icon128.png",
+    "256": "icons/icon256.png"
+  },
+  "browser_action": {
+    "default_title": "Countdown Timer",
+    "default_icon": "icons/icon128.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "notifications"
+  ],
+  "web_accessible_resources": ["*.js", "*.css", "*.png"]
+}
